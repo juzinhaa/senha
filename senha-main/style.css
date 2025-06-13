@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+:root {
+    --branco: white;
+    --cor-de-fundo: rgb(78, 43, 134);
+    --fundo-da-senha: #00244d;
+    --fundo-texto: #002c5e;
+    --borda: #ca59ae;
+    --roboto: 'Quicksand' monospace;
+}
+
+body {
+    color: var(var(--branco));
+    background-color: var(--cor-de-fundo);
+    font-family: var(--Quicksand);
+}
+
+.titulo-principal {
+    font-family: var(--Quicksand);
+    font-size: 32px;
+}
+
+.titulo-secundario {
+    font-size: 24px;
+}
+
+.conteudo-titulo {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.conteudo-senha {
+    margin-top: 80px;
+    background: var(--fundo-senha);
+    padding: 24px;
+    border-bottom: 6px solid var(--borda);
+}
+
+#campo-senha {
+    background-color: var(--fundo-senha);
+    border: none;
+    color: var(--branco);
+    font-family: var(--Quicksand);
+    font-size: 40px;
+    width: 70%;
+}
