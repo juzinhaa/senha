@@ -1,22 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Hand:wght@400..700&display=swap');
 
 :root {
+
     --branco: white;
-    --cor-de-fundo: rgb(78, 43, 134);
-    --fundo-da-senha: #00244d;
-    --fundo-texto: #002c5e;
-    --borda: #ca59ae;
-    --roboto: 'Quicksand' monospace;
+    --cor-de-fundo: #e25892;
+    --fundo-senha: #eb74af;
+    --fundo-texto: #c44b83;
+    --borda: #420303;
+    --roboto: 'Edu SA Hand' monospace;
 }
 
+
 body {
-    color: var(var(--branco));
+
+    color: var(--branco);
     background-color: var(--cor-de-fundo);
-    font-family: var(--Quicksand);
+    font-family: var(--roboto);
 }
 
 .titulo-principal {
-    font-family: var(--Quicksand);
+    font-family: var(--roboto);
     font-size: 32px;
 }
 
@@ -30,17 +33,20 @@ body {
 }
 
 .conteudo-senha {
-    margin-top: 80px;
-    background: var(--fundo-senha);
-    padding: 24px;
-    border-bottom: 6px solid var(--borda);
+  margin-top: 80px;
+  background: var(--fundo-senha);
+  padding: 24px;
+  border-bottom: 6px solid var(--borda);
+
 }
 
-#campo-senha {
-    background-color: var(--fundo-senha);
-    border: none;
-    color: var(--branco);
-    font-family: var(--Quicksand);
-    font-size: 40px;
-    width: 70%;
+#campo-senha{
+
+background-color: var(--fundo-senha);
+border: none;
+color: var(--branco);
+font-family: var(--roboto);
+font-size: 40px;
+width: 70%;
+
 }
