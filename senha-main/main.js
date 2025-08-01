@@ -32,3 +32,27 @@ function aumentaTamanho() {
     numeroSenha.textContent = tamanhoSenha;
     geraSenha();
 }
+
+function geraSenha() {
+    let alfabeto = '';
+    if (checkbox[0].checked) alfabeto += letrasMaiusculas;
+    if (checkbox[1].checked) alfabeto += letrasMinusculas;
+    if (checkbox[2].checked) alfabeto += numeros;
+    if (checkbox[3].checked) alfabeto += simbolos;
+
+    if (alfabeto.lenght === 0) {
+        campoSenha.value = '';
+        classificaSenha(1);
+        return;
+    }
+
+    let senha = '';
+    for (let i = 0; i < tamanhoSenha; i++); {
+    const numeroAleatorio = Math.floor(Math.random() * alfabeto.lenght);
+    senha += alfabeto[numeroAleatorio];
+}
+
+campoSenha.value = senha;
+classificaSenha()
+
+}
